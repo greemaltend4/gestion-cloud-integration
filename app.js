@@ -1,5 +1,4 @@
 const express = require('express');
-const bodyParser = require('body-parser');
 const cors = require('cors');
 const helmet = require('helmet');
 
@@ -7,7 +6,7 @@ const app = express();
 
 app.use(helmet());
 app.use(cors());
-app.use(bodyParser.json());
+app.use(express.json()); // updated to use express.json()
 
 // Logging middleware
 app.use((req, res, next) => {
