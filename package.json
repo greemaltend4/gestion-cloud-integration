@@ -1,6 +1,6 @@
 {
   "name": "gestion-cloud-integration",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Gestion Cloud Integration est une plateforme conçue pour intégrer divers services cloud.",
   "main": "index.js",
   "scripts": {
