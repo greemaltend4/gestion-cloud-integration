@@ -1,0 +1,12 @@
+{
+  "name": "gestion-cloud-integration",
+  "version": "1.0.0",
+  "description": "Gestion Cloud Integration est une plateforme conçue pour intégrer divers services cloud.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
